@@ -121,6 +121,9 @@ export default function Home() {
                 <h2 className="max-w-3xl text-5xl font-semibold leading-[0.95] tracking-tight sm:text-6xl">
                   Your perfect cup should feel like it was chosen for you.
                 </h2>
+                <p className="max-w-2xl text-sm uppercase tracking-[0.28em] text-[#d6a651] sm:text-base">
+                  Discover your NovaBrew coffee personality in under two minutes.
+                </p>
                 <p className="max-w-2xl text-lg leading-8 text-[#cebda8] sm:text-xl">
                   Answer seven fast questions and discover your primary coffee
                   personality, your secondary tendency, and the NovaBrew lineup
