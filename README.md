@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# NovaBrew Coffee Taste Profile Quiz
 
-## Getting Started
+A personality-based coffee matching quiz built for NovaBrew Coffee Co. to create a more personal subscriber experience and support retention through taste-profile matching.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This project turns NovaBrew's retention strategy into a working product prototype. The quiz helps subscribers discover their coffee personality, pairs them with coffees that fit their taste, and creates a more identity-driven first impression than a generic subscription signup flow.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Coffee Personalities
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Bold Explorer**: Intense, high-conviction, dramatic flavor preferences with a love of strong, memorable coffee.
+- **Smooth Operator**: Balanced, polished, dependable taste with an eye for quality that does not need to show off.
+- **Cozy Classic**: Comfort-first coffee energy built around warm, familiar, easy-to-love flavors.
+- **Wild Card**: Curious, experimental, discovery-driven taste for unusual coffees and unexpected flavor notes.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Built With
 
-## Learn More
+- Next.js
+- Tailwind CSS
+- TypeScript
 
-To learn more about Next.js, take a look at the following resources:
+## Product Concept
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The app was designed as a customer-personalization prototype for NovaBrew Coffee Co., a direct-to-consumer coffee subscription company facing a retention challenge. The quiz is meant to:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- create an immediate sense of identity for each subscriber
+- recommend coffee matches tied to personality and taste
+- support a more personalized, less transactional onboarding experience
 
-## Deploy on Vercel
+## Why It Matters
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+NovaBrew's research showed that customers were not leaving because the coffee was bad. They were leaving because the subscription experience felt generic. This quiz is a prototype for fixing that problem by giving subscribers a more tailored, memorable experience from day one.
