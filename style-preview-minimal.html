@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NovaBrew Style Preview - Minimal</title>
+  <style>
+    :root {
+      --bg: #f6f1ea;
+      --panel: rgba(255, 255, 255, 0.82);
+      --text: #2c241d;
+      --muted: #6e6258;
+      --accent: #8b6b4a;
+      --border: rgba(91, 72, 55, 0.12);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+      background:
+        radial-gradient(circle at top left, rgba(183, 155, 122, 0.18), transparent 34%),
+        linear-gradient(135deg, #f9f6f1, var(--bg));
+      color: var(--text);
+      font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+      padding: 24px;
+    }
+
+    .card {
+      width: min(760px, 100%);
+      background: var(--panel);
+      backdrop-filter: blur(10px);
+      border: 1px solid var(--border);
+      border-radius: 28px;
+      padding: 40px;
+      box-shadow: 0 24px 80px rgba(77, 59, 42, 0.10);
+    }
+
+    .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 0.2em;
+      font-size: 12px;
+      color: var(--accent);
+      margin-bottom: 16px;
+    }
+
+    h1 {
+      margin: 0 0 14px;
+      font-size: clamp(34px, 5vw, 52px);
+      line-height: 1.05;
+      font-weight: 600;
+    }
+
+    .sub {
+      margin: 0 0 30px;
+      font-size: 18px;
+      line-height: 1.6;
+      color: var(--muted);
+      max-width: 48ch;
+    }
+
+    .option-grid {
+      display: grid;
+      gap: 14px;
+    }
+
+    .option {
+      border: 1px solid var(--border);
+      background: rgba(255, 255, 255, 0.72);
+      border-radius: 20px;
+      padding: 18px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+    }
+
+    .option:hover {
+      transform: translateY(-2px);
+      border-color: rgba(139, 107, 74, 0.36);
+      box-shadow: 0 12px 30px rgba(77, 59, 42, 0.08);
+    }
+
+    .label {
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .hint {
+      color: var(--muted);
+      font-size: 15px;
+      margin-top: 6px;
+    }
+
+    .tag {
+      border-radius: 999px;
+      padding: 8px 12px;
+      background: rgba(139, 107, 74, 0.10);
+      color: var(--accent);
+      font-size: 13px;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="eyebrow">Minimal Preview</div>
+    <h1>Your perfect cup starts with a feeling.</h1>
+    <p class="sub">NovaBrew’s quiz should feel calm, premium, and intentional. This direction leans on whitespace, muted earth tones, and a polished specialty-coffee aesthetic.</p>
+    <section class="option-grid">
+      <div class="option">
+        <div>
+          <div class="label">A slow morning with a journal and sunlight</div>
+          <div class="hint">Comforting, thoughtful, unrushed</div>
+        </div>
+        <div class="tag">Cozy</div>
+      </div>
+      <div class="option">
+        <div>
+          <div class="label">An espresso at a sleek hotel bar before a flight</div>
+          <div class="hint">Confident, efficient, a little dramatic</div>
+        </div>
+        <div class="tag">Bold</div>
+      </div>
+      <div class="option">
+        <div>
+          <div class="label">Your dependable neighborhood cafe order</div>
+          <div class="hint">Balanced, familiar, always good</div>
+        </div>
+        <div class="tag">Smooth</div>
+      </div>
+      <div class="option">
+        <div>
+          <div class="label">The weirdest single-origin on the menu</div>
+          <div class="hint">Unexpected, curious, worth the risk</div>
+        </div>
+        <div class="tag">Wild</div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
